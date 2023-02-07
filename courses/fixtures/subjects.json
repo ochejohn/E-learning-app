@@ -1,0 +1,56 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "motion",
+    "slug": "motion",
+    "overview": "1st law of motion",
+    "created": "2023-01-20T06:52:23.085Z",
+    "students": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "law of motion",
+    "description": "1st law of motion",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "2nd law of motion",
+    "description": "newtons second law of motion",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "3rd law of motion",
+    "description": "newtons third law of motion",
+    "order": 3
+  }
+}
+]
